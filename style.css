@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -137,6 +140,10 @@ ul li a{
     padding-top: 120px;
     padding-bottom: 120px;
 }
+#about{
+    background-color:#0e0e0e ;
+    height: auto;
+}
 
 .about-left img{
     border-radius: 10px;
@@ -173,6 +180,121 @@ ul li a{
     float: left;
     font-weight: bold;
 }
+
+#services{
+    background-color:#252525 ;
+    height: auto;
+}
+.header h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: myFirstFont;
+    font-size: 50px;
+}
+.header p{
+    color: white;
+    font-family: mylinkfont;
+}
+
+.service-inner{
+    height: 350px;
+    width: 350px;
+    background-color: #1b1a1a;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.1);
+}
+
+.service-inner:hover{
+    height: 350px;
+    width: 350px;
+    background-color: #4d4c4c;
+    border-radius: 10px;
+    transform: translateY(-5px);
+    transition: ease-in .2s;
+}
+.service-inner span i{
+    color: white;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.service-inner h3{
+    color: white;
+    font-family: mylinkFont;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 27px;
+}
+
+.service-inner p{
+    color: white;
+    font-family: mylinkFont;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+#portfolio{
+    background-color:#0e0e0e ;
+    height: auto;
+}
+
+.portfolio-inner{
+    height: 600px;
+    width: 350px;
+   background-color: #4d4c4c;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.1);
+}
+
+.portfolio-inner:hover{
+    background-color: #1b1a1a;
+    border-radius: 10px;
+    transform: translateY(-5px);
+    transition: ease-in .2s;
+}
+
+
+#contacts{
+    background-color:#252525 ;
+    height: auto;
+}
+#contacts .header h1, p{
+    text-align: start;
+}
+
+.form input{
+    height: 50px;
+}
+
+footer{
+    overflow-x: hidden;
+    height: 70px;
+    width: 100%;
+    background-color:#161515;
+      
+}
+footer .col-md-4{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.socials ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 
 
 
