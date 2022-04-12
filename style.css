@@ -185,6 +185,9 @@ ul li a{
     background-color:#252525 ;
     height: auto;
 }
+#services .row{
+    padding-bottom: 100px;
+}
 .header h1{
     color: white;
     text-align: center;
@@ -245,6 +248,10 @@ ul li a{
     height: auto;
 }
 
+#portfolio .row{
+    padding-bottom: 100px;
+}
+
 .portfolio-inner{
     height: 600px;
     width: 350px;
@@ -273,8 +280,16 @@ ul li a{
     text-align: start;
 }
 
+#contacts .row{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
 .form input{
     height: 50px;
+}
+.form button{
+    width: 100%;
 }
 
 footer{
