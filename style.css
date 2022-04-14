@@ -1,6 +1,6 @@
 html{
     scroll-behavior: smooth;
-    transition: ease-in .2s;
+    transition: ease-in 3s;
 }
 body{
     margin: 0;
@@ -310,6 +310,10 @@ ul li a:hover{
 
 #contacts .row{
     padding-top: 50px;
+    padding-bottom: 100px;
+}
+#contacts .map{
+    padding-top: 230px;
     padding-bottom: 100px;
 }
 
