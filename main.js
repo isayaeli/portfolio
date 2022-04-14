@@ -17,3 +17,37 @@ window.onscroll = () => {
 
 
 
+$(document).on('click','#main', function(){
+    $('#main-skills').show()
+    $('#awards').hide() 
+    $( '#experiences').hide(), 
+    $('#education').hide()
+    
+})
+
+$(document).on('click','#award', function(){
+    $('#awards').show()
+    $('#main-skills').hide() 
+    $('#experiences').hide()
+    $('#education').hide()
+})
+
+
+$(document).on('click','#experience', function(){
+    $('#experiences').show()
+    $('#awards').hide()
+    $('#main-skills').hide() 
+    $('#education').hide()
+})
+
+$(document).on('click','#edu', function(){
+    $('#education').show()
+    $('#awards').hide()
+    $('#main-skills').hide() 
+    $('#experiences').hide()
+})
+
+
+
+
+
