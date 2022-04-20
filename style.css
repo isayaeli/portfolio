@@ -146,7 +146,9 @@ ul li a:hover{
     padding-top: 120px;
     padding-bottom: 120px;
     width: 700px;
-}
+}import './style.css';
+import Utilities from './utils.js';
+import Leaderboad from './LeaderBoard.js';
 #about{
     background-color:#0e0e0e ;
     height: auto;
